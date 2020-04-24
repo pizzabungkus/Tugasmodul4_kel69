@@ -23,10 +23,11 @@ namespace Tugas4_AplikasiHitungVolumeKeliling3D
                 Console.WriteLine(" ----Tekan 2 Untuk Bangun Kubus---- ");
                 Console.WriteLine(" ----Tekan 3 Untuk Bangun Tabung---- ");
                 pilihan1 = Console.ReadLine();
+
                 //BALOK
                 if (pilihan1 == "1")
                 {
-                    Console.WriteLine("Tekan 1 untuk mengihitung Volume Balok, Tekan 2 untuk menghitung Keliling Balok");
+                    Console.WriteLine("Tekan 1 untuk menghitung Volume Balok, Tekan 2 untuk menghitung Keliling Balok");
                     pilihan2 = Console.ReadLine();
                     ClassRumus objek = new ClassRumus();
                     if (pilihan2 == "1")
@@ -42,26 +43,27 @@ namespace Tugas4_AplikasiHitungVolumeKeliling3D
                     }
                     else if (pilihan2 == "2")
                     {
-                        Console.WriteLine("Masukan Panjang Balok = (Dalam CM) ");
+                        Console.WriteLine("Masukkan Panjang Balok = (Dalam CM) ");
                         double p = Convert.ToDouble(Console.ReadLine());
-                        Console.WriteLine("Masukan Lebar Balok = (Dalam CM) ");
+                        Console.WriteLine("Masukkan Lebar Balok = (Dalam CM) ");
                         double l = Convert.ToDouble(Console.ReadLine());
-                        Console.WriteLine("Masukan Tinggi Balok = (Dalam CM) ");
+                        Console.WriteLine("Masukkan Tinggi Balok = (Dalam CM) ");
                         double t = Convert.ToDouble(Console.ReadLine());
                         objek.kelilingBalok(p, l, t);
                         perulangan();
                     }
                     else Console.WriteLine("Pilihan yang anda tekan salah !");
                 }
+
                 //KUBUS
                 else if (pilihan1 == "2")
                 {
-                    Console.WriteLine("Tekan 1 untuk mengihitung Volume Kubus, Tekan 2 untuk menghitung Keliling Kubus");
+                    Console.WriteLine("Tekan 1 untuk menghitung Volume Kubus, Tekan 2 untuk menghitung Keliling Kubus");
                     pilihan2 = Console.ReadLine();
                     ClassRumus objek = new ClassRumus();
                     if (pilihan2 == "1")
                     {
-                        Console.WriteLine("Masukan Rusuk Kubus = (Dalam CM) ");
+                        Console.WriteLine("Masukkan Rusuk Kubus = (Dalam CM) ");
                         double r = Convert.ToDouble(Console.ReadLine());
                         objek.volumeKubus(r);
                         perulangan();
@@ -69,9 +71,35 @@ namespace Tugas4_AplikasiHitungVolumeKeliling3D
                     else if (pilihan2 == "2")
                     {
 
-                        Console.WriteLine("Masukan Rusuk Kubus = (Dalam CM) ");
+                        Console.WriteLine("Masukkan Rusuk Kubus = (Dalam CM) ");
                         double r = Convert.ToDouble(Console.ReadLine());
                         objek.kelilingKubus(r);
+                        perulangan();
+                    }
+                    else Console.WriteLine("Pilihan yang anda tekan salah !");
+                }
+
+                //TABUNG
+                else if (pilihan1 == "3")
+                {
+                    Console.WriteLine("Tekan 1 untuk menghitung Volume Tabung, Tekan 2 untuk menghitung Keliling Alas Tabung");
+                    pilihan2 = Console.ReadLine();
+                    ClassRumus objek = new ClassRumus();
+                    if (pilihan2 == "1")
+                    {
+                        Console.WriteLine("Masukkan Jari-jari Alas Tabung = (Dalam CM) ");
+                        double r = Convert.ToDouble(Console.ReadLine());
+                        Console.WriteLine("Masukkan Tinggi Tabung = (Dalam CM)");
+                        double t = Convert.ToDouble(Console.ReadLine());
+                        objek.volumeTabung(r, t);
+                        perulangan();
+                    }
+                    else if (pilihan2 == "2")
+                    {
+
+                        Console.WriteLine("Masukan Jari-jari Alas Tabung = (Dalam CM) ");
+                        double r = Convert.ToDouble(Console.ReadLine());
+                        objek.kelilingTabung(r);
                         perulangan();
                     }
                     else Console.WriteLine("Pilihan yang anda tekan salah !");
