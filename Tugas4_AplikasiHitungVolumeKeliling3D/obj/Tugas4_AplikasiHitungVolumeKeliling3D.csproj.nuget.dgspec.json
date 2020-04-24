@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Tugasm4_kel69\\Tugas4_AplikasiHitungVolumeKeliling3D\\Tugas4_AplikasiHitungVolumeKeliling3D\\Tugas4_AplikasiHitungVolumeKeliling3D.csproj": {}
+    "C:\\Users\\ASUS\\Documents\\GitHub\\Tugasmodul4_kel69\\Tugas4_AplikasiHitungVolumeKeliling3D\\Tugas4_AplikasiHitungVolumeKeliling3D.csproj": {}
   },
   "projects": {
-    "C:\\Tugasm4_kel69\\Tugas4_AplikasiHitungVolumeKeliling3D\\Tugas4_AplikasiHitungVolumeKeliling3D\\Tugas4_AplikasiHitungVolumeKeliling3D.csproj": {
+    "C:\\Users\\ASUS\\Documents\\GitHub\\Tugasmodul4_kel69\\Tugas4_AplikasiHitungVolumeKeliling3D\\Tugas4_AplikasiHitungVolumeKeliling3D.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Tugasm4_kel69\\Tugas4_AplikasiHitungVolumeKeliling3D\\Tugas4_AplikasiHitungVolumeKeliling3D\\Tugas4_AplikasiHitungVolumeKeliling3D.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Documents\\GitHub\\Tugasmodul4_kel69\\Tugas4_AplikasiHitungVolumeKeliling3D\\Tugas4_AplikasiHitungVolumeKeliling3D.csproj",
         "projectName": "Tugas4_AplikasiHitungVolumeKeliling3D",
-        "projectPath": "C:\\Tugasm4_kel69\\Tugas4_AplikasiHitungVolumeKeliling3D\\Tugas4_AplikasiHitungVolumeKeliling3D\\Tugas4_AplikasiHitungVolumeKeliling3D.csproj",
-        "packagesPath": "C:\\Users\\Andro\\.nuget\\packages\\",
-        "outputPath": "C:\\Tugasm4_kel69\\Tugas4_AplikasiHitungVolumeKeliling3D\\Tugas4_AplikasiHitungVolumeKeliling3D\\obj\\",
+        "projectPath": "C:\\Users\\ASUS\\Documents\\GitHub\\Tugasmodul4_kel69\\Tugas4_AplikasiHitungVolumeKeliling3D\\Tugas4_AplikasiHitungVolumeKeliling3D.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ASUS\\Documents\\GitHub\\Tugasmodul4_kel69\\Tugas4_AplikasiHitungVolumeKeliling3D\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Andro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
