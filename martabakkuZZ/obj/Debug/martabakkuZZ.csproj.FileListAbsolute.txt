@@ -1,0 +1,12 @@
+C:\Praktikum DKP\martabakkuZZ\martabakkuZZ\bin\Debug\martabakkuZZ.exe.config
+C:\Praktikum DKP\martabakkuZZ\martabakkuZZ\bin\Debug\martabakkuZZ.exe
+C:\Praktikum DKP\martabakkuZZ\martabakkuZZ\bin\Debug\martabakkuZZ.pdb
+C:\Praktikum DKP\martabakkuZZ\martabakkuZZ\obj\Debug\martabakkuZZ.Form1.resources
+C:\Praktikum DKP\martabakkuZZ\martabakkuZZ\obj\Debug\martabakkuZZ.HomeUC.resources
+C:\Praktikum DKP\martabakkuZZ\martabakkuZZ\obj\Debug\martabakkuZZ.Properties.Resources.resources
+C:\Praktikum DKP\martabakkuZZ\martabakkuZZ\obj\Debug\martabakkuZZ.csproj.GenerateResource.cache
+C:\Praktikum DKP\martabakkuZZ\martabakkuZZ\obj\Debug\martabakkuZZ.csproj.CoreCompileInputs.cache
+C:\Praktikum DKP\martabakkuZZ\martabakkuZZ\obj\Debug\martabakkuZZ.exe
+C:\Praktikum DKP\martabakkuZZ\martabakkuZZ\obj\Debug\martabakkuZZ.pdb
+C:\Praktikum DKP\martabakkuZZ\martabakkuZZ\obj\Debug\martabakkuZZ.MenuUC.resources
+C:\Praktikum DKP\martabakkuZZ\martabakkuZZ\obj\Debug\martabakkuZZ.PesanUC.resources
